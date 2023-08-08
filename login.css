@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.toplogo{
+  display: flex;
+  background-color: #000000;
+  width: 96.5%;
+  margin-left: 25px;
+  margin-top: 10px;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.logb h1{
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    padding-top: 6px;
+   
+
+ 
+} 
+.logb a{
+    color: white;
+    text-decoration: none;
+ 
+}
+.navbar2{
+   position: relative;
+    width: 55%;
+    display: flex;
+
+}
+.navbar2 ul li {
+    display: inline-block;
+    margin-left: 580px;
+    
+}
+.navbar2 ul li a{
+    width: 70%;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.navbar2 li a:hover{
+    background: rgb(48, 86, 151);
+    
+}
+.midd{
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 570px;
+    width: 1290px;
+    margin-left: 20px;
+    background-color: #000000;
+}
+.h11 h1{
+    color: rgb(255, 255, 255);
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 90px;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 50px;
+    position: absolute;
+    animation: floatImagebill 3s ease-in-out infinite;
+}
+
+
+
+@keyframes floatImagebill{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(1.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.bid p{
+    color: white;
+   margin-top: -211px;
+   margin-left: 60px;
+   font-size: 30px;
+   
+}
+form{
+    position: relative;
+    text-align: center;
+    margin-top: 27px;
+    border: 2px solid rgb(255, 210, 210);
+    width: 310px;
+    height: 500px;
+    margin-left: 930px;
+    border-radius: 20px ;
+    background-color: black;
+
+    
+    
+}
+form .log{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 290PX;
+    height: 25spx;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 3px;
+}
+.email{
+    margin-top: 20px;
+} 
+.email{
+    border-bottom: 2px solid white;
+    width: 260px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 50px;
+    background-color: transparent;
+    font-style: italic;
+}
+.email label{
+    position: absolute;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    left: 9px;
+    top: 40%;
+    transition: .5s;
+    outline: none;
+    background-color: tr;
+    
+}
+.inputs input:focus ~ label,
+.inputs input:focus ~ :valid{
+    top: -5px;
+}
+.email input{
+    background-color: transparent;
+    width: 220px;
+    border: none;
+    height: 50px;
+    outline: none;
+    padding: 0 35px 0 5px;
+    color: white;
+    font-size: 10pxs;
+ 
+}
+.password{
+    border-bottom: 2px solid white;
+    width: 260px;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 50px;
+    background-color: transparent;
+    font-style: italic;
+}
+.password label{
+    position: absolute;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    left: 9px;
+    top: 40%;
+    transition: .5s;
+
+
+}
+.password input{
+    background-color: transparent;
+    width: 320px;
+    border: none;
+    height: 50px;
+    outline: none;
+    padding: 0 35px 0 5px;
+    color: white;
+}
+.rem{
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+.login{
+    margin-top: 30px;
+  
+}
+.create a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: .7s;
+}
+.create a:hover{
+    color: aqua;
+}
+
+button {
+    width:220px;
+    padding: 3px;
+    margin: 30px 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+   
+   
+} 
+button a{
+text-decoration: none;
+color: black;
+}
+button:hover{
+    background-color: rgb(0, 192, 226);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    
+}
+   

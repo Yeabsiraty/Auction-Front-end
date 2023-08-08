@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.top-logo{
+    border: 2px solid;
+    width: 98%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: rgb(26, 24, 24);
+}
+.top-logo .logos a{
+    color: white;
+    text-decoration: none;
+}
+.first-mid{
+    margin-top: 15px;
+    display: flex;
+    width: 96%;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+.image img{
+    width: 570px;
+    margin-left: 40px;
+    height: 500px;
+    border-radius: 40px;
+}
+.first-mid .top-name{
+    margin-left: 28px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+.first-mid .value{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.left-part{
+
+    margin-left: 39px;
+    width: 640px;
+    border-radius: 20px;
+    background-color: rgb(28, 27, 27);
+}
+.timeinterval{
+    display: flex;
+    margin-top: 15px;
+   background-color: rgb(23, 22, 22);
+    margin-left: 12px;
+    width: 610px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+}
+#countdown{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+#countdown div{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding-left: 10px;
+  
+  
+}
+.estimate{
+    margin-left: 40px;
+    margin-top: 8px;
+    
+}
+.dollar{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.maxestimate{
+   text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+.yourvalue{
+    margin-top: 20px;
+}
+.yourvalue input{
+    margin-left: 100px;
+    width: 390px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+::placeholder{
+    text-align: center;
+
+}
+button{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.placebid ul{
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 300px;
+    height: 40px;
+    margin-left: 128px;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.placebid ul li{
+   margin-left: 19px;
+}
+a:hover{
+    transform: scale(1.5);
+
+}
+.image:hover{
+    transform: scale(0.98);
+}
+img{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+.image{
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(1.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.placebid .bidbutton{
+    margin-left: 230px;
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(15, 14, 14);
+    border: none;
+    cursor: pointer;
+}
+.placebid .bidbutton:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.bootom{
+    margin-top: 50px;
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+
+}
+.bootom .detail{
+    padding-top: 10px;
+    width: 370px;
+    border-radius: 20px;
+    height: 260px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgb(30, 28, 28);
+}
+.bootom .item-detail{
+    font-size: 50px;
+    
+}
+.bootom .description{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.bootom ul{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shipping{
+    margin-top: 50px;
+    padding-top: 15px;
+    font-size: 28px;
+    width: 370px;
+    height: 130px;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgb(30, 28, 28);
+}
+.shipping ul{
+    padding: 10px;
+}
+.rule {
+    width: 640px;
+    margin-top: -466px;
+    margin-left: 580px;
+    height: 330px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(30, 28, 28);
+}
+.rule .ru{
+    text-align: center;
+    font-size: 60px;
+    
+}
+.rule p{
+    margin-top: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+}

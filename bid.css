@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1d1b1b;
+}
+.all .top{
+    width: 97%;
+    height: 40px;
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.top .logo{
+    margin-left: 30px;
+    font-size: 20px;
+ 
+}
+.top .logo a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.top .search{
+    margin-right: 80px;
+    font-size: 20px;
+    color: rgb(252, 249, 249);
+}
+
+.search input{
+    width: 200px;
+    height: 28px;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 15px;
+    font-style: iitalic;
+   
+}
+::placeholder{
+    padding-left: 10px;
+    color: rgb(97, 90, 90);
+}
+.all .lists ul {
+    text-align: center;
+    width: 100%;
+
+}
+.all .lists ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 2px solid;
+    width: 90px;
+    height: 18px;
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+}
+.all .lists ul li a{
+    color: black;
+ 
+}
+.all .lists ul li:hover{
+    background-color: rgb(56, 52, 52);
+   color: white;
+}
+
+
+.lists ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.allcontent{
+    display: flex;
+    
+}
+.allcontent .content img{
+    margin-left: 3px;
+    border-radius: 20px;
+    width: 98%;
+    height: 200px;
+    animation: floatImagebill 3s ease-in-out infinite;
+}
+
+
+
+@keyframes floatImagebill{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(0.3rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.allcontent .content{
+  
+    
+    width: 350px;
+    height: 360px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgb(14, 13, 13);
+    
+    padding: 15px;
+ 
+}
+
+.allcontent .content h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+.allcontent .content p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+.content button{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 20px;
+}
+.content button a{
+    text-decoration: none;
+    color: black;
+}
+
+.content button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
